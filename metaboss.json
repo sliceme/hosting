@@ -1,0 +1,15 @@
+{
+  "name": "LOL Token",
+  "symbol": "LOL",
+  "description": "Just laugh",
+  "image": "https://github.com/sliceme/hosting/blob/main/LOL.jpg?raw=true",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://github.com/sliceme/hosting/blob/main/LOL.jpg?raw=true",
+        "type": "image/png"
+      }
+    ]
+  }
+}
