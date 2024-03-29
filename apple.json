@@ -1,0 +1,15 @@
+{
+  "name": "Apple Token",
+  "symbol": "APL",
+  "description": "Red, Apples?",
+  "image": "https://raw.githubusercontent.com/sliceme/hosting/main/images.png",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/sliceme/hosting/main/images.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
