@@ -4,6 +4,11 @@
   "description": "Just laugh",
   "image": "https://raw.githubusercontent.com/sliceme/hosting/main/LOL.jpg",
   "attributes": [],
+  "extensions": {
+    "website": "https://google.com",
+    "twitter": "https://x.com",
+    "telegram": "https://t.me/slicebots"
+  }
   "properties": {
     "files": [
       {
