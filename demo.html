@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Mini App</title>
+    <script async src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+        function switchInlineQuery() {
+            if (window.Telegram.WebApp) {
+                // The query you want to switch to
+                const query = "example query";
+
+                // Calling the switchInlineQuery method
+                Telegram.WebApp.switchInlineQuery(query);
+            } else {
+                console.error("Telegram WebApp is not available.");
+            }
+        }
+
+        window.onload = function() {
+            switchInlineQuery();
+        };
+    </script>
+</head>
+<body>
+    <h1>Telegram Mini App</h1>
+    <p>This mini app will switch to an inline query on load.</p>
+</body>
+</html>
